@@ -1,0 +1,16 @@
+{
+  "name": "solidity_samples",
+  "version": "1.0.0",
+  "description": "Solidity sample source",
+  "main": "index.js",
+  "repository": "git@github.com:morooka-akira/solidity_samples.git",
+  "author": "Inon29 <morooka.akira.inon29@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "solium": "^1.0.5",
+    "truffle": "^4.0.1"
+  },
+  "scripts" : {
+      "lint:sol": "yarn run solium -d ./contracts"
+  }
+}
